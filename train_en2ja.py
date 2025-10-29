@@ -7,12 +7,12 @@ from transformers import (
     DataCollatorForSeq2Seq,
 )
 
-model_name = "google/mt5-small"
-tokenizer = MT5Tokenizer.from_pretrained(model_name)
+model_name = "./finetuned_mt5"  # hoặc đường dẫn tới model bạn đã fine-tune trước đó
 model = MT5ForConditionalGeneration.from_pretrained(model_name)
+tokenizer = MT5Tokenizer.from_pretrained(model_name)
 
 # Load dataset
-dataset = load_dataset("csv", data_files={"train": "data/train.csv"})
+dataset = load_dataset("csv", data_files={"train": "data/it_data.csv"})
 dataset = dataset["train"].train_test_split(test_size=0.1)
 dataset["validation"] = dataset.pop("test")
 

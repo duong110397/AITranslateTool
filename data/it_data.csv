@@ -1,0 +1,292 @@
+en,ja
+The system is down,システムがダウンしています
+Please restart the server,サーバーを再起動してください
+The application crashed,アプリケーションがクラッシュしました
+We need to deploy the new version,新しいバージョンをデプロイする必要があります
+The network connection is unstable,ネットワーク接続が不安定です
+I forgot to commit my changes,変更をコミットするのを忘れました
+Please check the error log,エラーログを確認してください
+This is a backend issue,これはバックエンドの問題です
+The API response is too slow,APIのレスポンスが遅すぎます
+We have a bug in the payment module,決済モジュールにバグがあります
+Let's fix it in the next release,次のリリースで修正しましょう
+The database is locked,データベースがロックされています
+We need to clear the cache,キャッシュをクリアする必要があります
+This feature is under development,この機能は開発中です
+The frontend looks broken,フロントエンドが壊れているようです
+Please merge your branch,ブランチをマージしてください
+There is a memory leak,メモリリークがあります
+The code needs to be refactored,コードをリファクタリングする必要があります
+This task is high priority,このタスクは優先度が高いです
+The server ran out of disk space,サーバーのディスク容量が不足しています
+The user interface looks great,ユーザーインターフェースが素晴らしいです
+The design needs improvement,デザインを改善する必要があります
+We should add more unit tests,ユニットテストをもっと追加すべきです
+The deployment was successful,デプロイが成功しました
+There was an error during build,ビルド中にエラーが発生しました
+This script automates the process,このスクリプトはプロセスを自動化します
+Please update your environment,環境を更新してください
+The model accuracy is improving,モデルの精度が向上しています
+Let's train the AI again,AIをもう一度トレーニングしましょう
+The dataset is too small,データセットが小さすぎます
+We need more training data,トレーニングデータをもっと集める必要があります
+This version supports multiple languages,このバージョンは多言語に対応しています
+The API key has expired,APIキーの有効期限が切れています
+We should use environment variables,環境変数を使用すべきです
+The token is invalid,トークンが無効です
+Please restart Docker,ドッカーを再起動してください
+The container failed to start,コンテナの起動に失敗しました
+Let's check the logs,ログを確認しましょう
+The service is not responding,サービスが応答していません
+Please run the migration,マイグレーションを実行してください
+The schema has been updated,スキーマが更新されました
+We need to roll back,ロールバックする必要があります
+This endpoint is not working,このエンドポイントは動作していません
+The query took too long,クエリに時間がかかりすぎました
+The app is running in production,アプリは本番環境で実行中です
+We found a security vulnerability,セキュリティ上の脆弱性が見つかりました
+We need to patch the system,システムをパッチする必要があります
+This library is deprecated,このライブラリは非推奨です
+Please upgrade to the latest version,最新バージョンにアップグレードしてください
+The code review is pending,コードレビューが保留中です
+This function is too complex,この関数は複雑すぎます
+We should simplify the logic,ロジックを簡素化すべきです
+Let's optimize the performance,パフォーマンスを最適化しましょう
+The request timed out,リクエストがタイムアウトしました
+Please check your internet connection,インターネット接続を確認してください
+The authentication failed,認証に失敗しました
+The password is incorrect,パスワードが間違っています
+We should use OAuth,OAuthを使用すべきです
+Please regenerate the access token,アクセストークンを再生成してください
+The SSL certificate has expired,SSL証明書の有効期限が切れています
+We need to renew it,更新する必要があります
+The build pipeline is broken,ビルドパイプラインが壊れています
+Let's run the CI/CD again,CI/CDを再実行しましょう
+We have a merge conflict,マージコンフリクトが発生しました
+Please resolve it manually,手動で解決してください
+The repository is private,リポジトリはプライベートです
+The branch is protected,ブランチは保護されています
+Let's create a pull request,プルリクエストを作成しましょう
+The tests are failing,テストが失敗しています
+Let's debug the issue,問題をデバッグしましょう
+We need to mock the API,APIをモックする必要があります
+This endpoint requires authentication,このエンドポイントには認証が必要です
+The model is overfitting,モデルが過学習しています
+We should add regularization,正則化を追加すべきです
+The loss function is not decreasing,損失関数が減少していません
+Let's tune the hyperparameters,ハイパーパラメータを調整しましょう
+The GPU memory is full,GPUメモリがいっぱいです
+We need to reduce batch size,バッチサイズを減らす必要があります
+This dataset is noisy,このデータセットにはノイズがあります
+We need to clean the data,データをクリーンアップする必要があります
+The tokenizer is splitting incorrectly,トークナイザーが誤って分割しています
+Let's check the preprocessing step,前処理の手順を確認しましょう
+The translation is not accurate,翻訳が正確ではありません
+We should fine-tune the model,モデルをファインチューニングすべきです
+The inference is too slow,推論が遅すぎます
+Let's use a smaller model,より小さいモデルを使用しましょう
+The validation accuracy is high,検証精度が高いです
+The training loss is low,トレーニング損失が低いです
+We should stop early,早期終了すべきです
+Let's visualize the results,結果を可視化しましょう
+The confusion matrix looks good,混同行列は良好です
+We should use cross-validation,クロスバリデーションを使用すべきです
+The precision is high,適合率が高いです
+The recall is low,再現率が低いです
+Let's balance the dataset,データセットのバランスを取ろう
+We can use data augmentation,データ拡張を使用できます
+This model uses transformers,このモデルはトランスフォーマーを使用しています
+The embedding dimension is 512,埋め込み次元は512です
+Let's use Adam optimizer,Adamオプティマイザーを使用しましょう
+The learning rate is too high,学習率が高すぎます
+We should reduce it,それを減らすべきです
+The batch size is too small,バッチサイズが小さすぎます
+Let's increase it,それを増やしましょう
+We should log the metrics,メトリクスをログに記録すべきです
+Let's use TensorBoard,TensorBoardを使用しましょう
+The model checkpoint is saved,モデルのチェックポイントが保存されました
+The evaluation is complete,評価が完了しました
+This approach is data-driven,このアプローチはデータ駆動型です
+We can use reinforcement learning,強化学習を使用できます
+The training took 3 hours,トレーニングに3時間かかりました
+We used 10.000 samples,1万件のサンプルを使用しました
+Let's retrain the model,モデルを再トレーニングしましょう
+The output looks weird,出力が変です
+We should inspect the attention weights,アテンション重みを確認すべきです
+The BLEU score is improving,BLEUスコアが向上しています
+We should use a larger dataset,より大きなデータセットを使用すべきです
+This result looks promising,この結果は有望です
+Let's publish the findings,結果を公開しましょう
+The model file is too large,モデルファイルが大きすぎます
+We can compress it,圧縮することができます
+Let's quantize the model,モデルを量子化しましょう
+The latency is acceptable,レイテンシは許容範囲です
+We can deploy it to production,本番環境にデプロイできます
+The endpoint is live,エンドポイントが稼働中です
+Let's monitor the metrics,メトリクスを監視しましょう
+The logs show some warnings,ログに警告が表示されています
+We need to fix the warnings,警告を修正する必要があります
+The API limit has been reached,APIの制限に達しました
+We need to wait for reset,リセットを待つ必要があります
+The input is invalid,入力が無効です
+Please check the format,フォーマットを確認してください
+This field is required,このフィールドは必須です
+The response format has changed,レスポンス形式が変更されました
+We need to update the parser,パーサーを更新する必要があります
+The JSON is malformed,JSONが不正です
+Please validate the input,入力を検証してください
+This project uses Python,このプロジェクトはPythonを使用しています
+We can use FastAPI,FastAPIを使用できます
+Let's switch to Node.js,Node.jsに切り替えましょう
+The React component is not rendering,Reactコンポーネントがレンダリングされていません
+Please check the props,プロップスを確認してください
+We should use TypeScript,TypeScriptを使用すべきです
+Let's refactor the codebase,コードベースをリファクタリングしましょう
+The package version is outdated,パッケージのバージョンが古いです
+Please run npm update,npm updateを実行してください
+We need to lock dependencies,依存関係をロックする必要があります
+Let's use Docker Compose,Docker Composeを使用しましょう
+The container logs show errors,コンテナログにエラーが表示されています
+We should rebuild the image,イメージを再ビルドすべきです
+The API gateway is overloaded,APIゲートウェイが過負荷です
+Let's add load balancing,ロードバランシングを追加しましょう
+The cloud instance is down,クラウドインスタンスがダウンしています
+Please restart the instance,インスタンスを再起動してください
+We need to back up the database,データベースをバックアップする必要があります
+The backup completed successfully,バックアップが正常に完了しました
+Let's restore the backup,バックアップを復元しましょう
+The data integrity check failed,データ整合性チェックに失敗しました
+We should normalize the database,データベースを正規化すべきです
+Let's create a new index,新しいインデックスを作成しましょう
+The query plan looks inefficient,クエリプランが非効率的です
+We need to add caching,キャッシングを追加する必要があります
+The request payload is too large,リクエストペイロードが大きすぎます
+Let's compress the data,データを圧縮しましょう
+The user session expired,ユーザーセッションの有効期限が切れました
+Please log in again,再度ログインしてください
+The password reset email was sent,パスワードリセットメールが送信されました
+We need to hash the passwords,パスワードをハッシュ化する必要があります
+Let's use bcrypt,bcryptを使用しましょう
+The authentication token is missing,認証トークンがありません
+The login flow is broken,ログインフローが壊れています
+Please update the API endpoint,APIエンドポイントを更新してください
+The analytics dashboard is not loading,分析ダッシュボードが読み込まれません
+Let's fix the chart rendering,チャートのレンダリングを修正しましょう
+We should add pagination,ページネーションを追加すべきです
+The pagination logic is incorrect,ページネーションロジックが間違っています
+Let's use lazy loading,レイジーローディングを使用しましょう
+The image size is too big,画像サイズが大きすぎます
+Let's optimize the images,画像を最適化しましょう
+We should implement infinite scroll,無限スクロールを実装すべきです
+The layout breaks on mobile,モバイルでレイアウトが崩れます
+Let's make it responsive,レスポンシブにしましょう
+The CSS is not applied,CSSが適用されていません
+Please check the stylesheet link,スタイルシートリンクを確認してください
+The button alignment is off,ボタンの位置がずれています
+We need to adjust the padding,パディングを調整する必要があります
+Let's use a grid layout,グリッドレイアウトを使用しましょう
+The font is too small,フォントが小さすぎます
+Let's increase the font size,フォントサイズを大きくしましょう
+The color contrast is too low,色のコントラストが低すぎます
+We should improve accessibility,アクセシビリティを改善すべきです
+The website failed the audit,ウェブサイトが監査に失敗しました
+Let's improve performance metrics,パフォーマンス指標を改善しましょう
+The page load time is high,ページの読み込み時間が長いです
+We can use a CDN,CDNを使用できます
+The asset bundle is too large,アセットバンドルが大きすぎます
+Let's use code splitting,コード分割を使用しましょう
+The API gateway logs show 500 errors,APIゲートウェイのログに500エラーがあります
+Let's add better error handling,エラーハンドリングを改善しましょう
+The lambda function timed out,ラムダ関数がタイムアウトしました
+We need to increase the timeout,タイムアウトを延長する必要があります
+The event trigger didn’t fire,イベントトリガーが発火しませんでした
+Let's check the permissions,権限を確認しましょう
+The IAM role is misconfigured,IAMロールが誤って設定されています
+We should rotate the credentials,認証情報をローテーションすべきです
+The access log shows anomalies,アクセスログに異常があります
+Let's investigate possible attacks,攻撃の可能性を調査しましょう
+The system detected a DDoS attack,システムがDDoS攻撃を検出しました
+Let's enable rate limiting,レート制限を有効にしましょう
+The firewall blocked the request,ファイアウォールがリクエストをブロックしました
+We need to whitelist this IP,このIPをホワイトリストに追加する必要があります
+The SSL handshake failed,SSLハンドシェイクに失敗しました
+The encryption key is missing,暗号化キーがありません
+Let's rotate the encryption key,暗号化キーをローテーションしましょう
+The file upload failed,ファイルのアップロードに失敗しました
+Please check file permissions,ファイル権限を確認してください
+The storage bucket is full,ストレージバケットがいっぱいです
+Let's delete old files,古いファイルを削除しましょう
+The version control history is messy,バージョン管理履歴が乱れています
+We should squash the commits,コミットをスカッシュすべきです
+The tag was not pushed,タグがプッシュされませんでした
+Please push the release tag,リリースタグをプッシュしてください
+The Jenkins pipeline failed,Jenkinsパイプラインが失敗しました
+Let's re-run the job,ジョブを再実行しましょう
+The test coverage is low,テストカバレッジが低いです
+We should write more tests,もっとテストを書くべきです
+The unit tests passed,ユニットテストが通過しました
+The integration test failed,統合テストが失敗しました
+The mock server is not responding,モックサーバーが応答していません
+Let's restart the test environment,テスト環境を再起動しましょう
+The QA found a critical bug,QAが重大なバグを発見しました
+Let's reproduce the issue,問題を再現しましょう
+The steps to reproduce are unclear,再現手順が不明です
+Please attach screenshots,スクリーンショットを添付してください
+The severity level is high,重大度が高いです
+We need an urgent fix,緊急修正が必要です
+Let's push a hotfix,ホットフィックスをプッシュしましょう
+The release notes are missing,リリースノートがありません
+Let's document the changes,変更点をドキュメント化しましょう
+The API documentation is outdated,APIドキュメントが古いです
+We should update the README,READMEを更新すべきです
+The wiki is not maintained,Wikiが保守されていません
+Let's create developer guidelines,開発者ガイドラインを作成しましょう
+The onboarding process is confusing,オンボーディングプロセスが分かりにくいです
+We should simplify it,簡素化すべきです
+The sprint goal was not achieved,スプリント目標が達成されませんでした
+Let's review the sprint retrospectively,スプリントを振り返りましょう
+The backlog is too long,バックログが長すぎます
+Let's prioritize the tasks,タスクを優先順位付けしましょう
+The Jira board is not updated,Jiraボードが更新されていません
+Please move your ticket,チケットを移動してください
+The stand-up meeting starts now,スタンドアップミーティングが始まります
+Let's share progress updates,進捗を共有しましょう
+The product demo went well,プロダクトデモはうまくいきました
+The client requested new features,クライアントが新機能を要求しました
+We need to estimate development time,開発時間を見積もる必要があります
+Let's plan the next sprint,次のスプリントを計画しましょう
+The roadmap was updated,ロードマップが更新されました
+We should improve team communication,チームのコミュニケーションを改善すべきです
+The meeting ran too long,ミーティングが長すぎました
+Let's keep it short next time,次回は短くしましょう
+The deadline is approaching,締め切りが近づいています
+We need to speed up development,開発を加速する必要があります
+Let's reduce scope if necessary,必要に応じてスコープを縮小しましょう
+The project is behind schedule,プロジェクトが遅れています
+We need to catch up,追いつく必要があります
+The documentation is not clear,ドキュメントがわかりにくいです
+Let's rewrite the instructions,手順を書き直しましょう
+The configuration file is missing,設定ファイルがありません
+Please check the path,パスを確認してください
+The environment variables are not loaded,環境変数が読み込まれていません
+Let's restart the shell,シェルを再起動しましょう
+The API request is malformed,APIリクエストが不正です
+Please use the correct headers,正しいヘッダーを使用してください
+The JSON response is empty,JSONレスポンスが空です
+Let's debug the endpoint,エンドポイントをデバッグしましょう
+The token expired during the call,呼び出し中にトークンの有効期限が切れました
+We need to refresh it automatically,自動的にリフレッシュする必要があります
+The service dependency failed,サービス依存が失敗しました
+Let's add a retry mechanism,再試行メカニズムを追加しましょう
+The log level is too verbose,ログレベルが詳細すぎます
+We should reduce the log output,ログ出力を減らすべきです
+The exception was not handled properly,例外が適切に処理されていません
+Let's add proper error handling,適切なエラーハンドリングを追加しましょう
+The app crashed after update,アップデート後にアプリがクラッシュしました
+Please check compatibility issues,互換性の問題を確認してください
+The mobile build failed,モバイルビルドが失敗しました
+Let's rebuild from scratch,最初から再ビルドしましょう
+The app store rejected the build,アプリストアがビルドを拒否しました
+We need to fix the privacy policy,プライバシーポリシーを修正する必要があります
+The user feedback is positive,ユーザーのフィードバックは良好です
+Let's release the update,アップデートをリリースしましょう
