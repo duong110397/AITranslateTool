@@ -1,0 +1,3 @@
+/path/to/venv/*
+/finetuned_mt5/*
+/results/*

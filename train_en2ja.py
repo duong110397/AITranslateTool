@@ -22,14 +22,14 @@ def preprocess(example):
     inputs = [prefix + ex for ex in example["en"]]
     targets = example["ja"]
 
-    model_inputs = tokenizer(inputs, max_length=128, padding="longest", truncation=True)
-    labels = tokenizer(targets, max_length=128, padding="longest", truncation=True)
+    model_inputs = tokenizer(inputs, max_length=128, padding="max_length", truncation=True)
+    labels = tokenizer(targets, max_length=128, padding="max_length", truncation=True)
 
-    # Mask pad tokens
-    model_inputs["labels"] = [
-        [(label if label != tokenizer.pad_token_id else -100) for label in seq]
-        for seq in labels["input_ids"]
+    labels["input_ids"] = [
+        [(l if l != tokenizer.pad_token_id else -100) for l in label]
+        for label in labels["input_ids"]
     ]
+    model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
 tokenized = dataset.map(preprocess, batched=True)
@@ -40,11 +40,12 @@ args = TrainingArguments(
     output_dir="./results",
     eval_strategy="epoch",
     learning_rate=3e-5,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
-    num_train_epochs=15,  # tăng vì dataset nhỏ
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    num_train_epochs=15,
     save_total_limit=2,
     logging_dir="./logs",
+    logging_steps=100,
 )
 
 trainer = Trainer(

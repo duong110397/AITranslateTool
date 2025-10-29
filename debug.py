@@ -1,13 +1,15 @@
 from transformers import MT5ForConditionalGeneration, MT5Tokenizer
 
-model = MT5ForConditionalGeneration.from_pretrained("./finetuned_mt5")
-tokenizer = MT5Tokenizer.from_pretrained("./finetuned_mt5")
+model_dir = "./finetuned_mt5"
+tokenizer = MT5Tokenizer.from_pretrained(model_dir)
+model = MT5ForConditionalGeneration.from_pretrained(model_dir)
 
 while True:
-    text = input("Enter text: ")
-    if not text:
+    text = input("Enter English text: ")
+    if not text.strip():
         break
+
     input_text = "translate English to Japanese: " + text
-    inputs = tokenizer(input_text, return_tensors="pt")
-    outputs = model.generate(**inputs, max_length=50)
+    input_ids = tokenizer(input_text, return_tensors="pt").input_ids
+    outputs = model.generate(input_ids, max_length=128)
     print("→", tokenizer.decode(outputs[0], skip_special_tokens=True))
